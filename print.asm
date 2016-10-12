@@ -1,3 +1,6 @@
+# My code is R_print and WritetoFile
+
+
 .data
 fout:	.asciiz "ex.txt"
 b0:	.byte '0'
