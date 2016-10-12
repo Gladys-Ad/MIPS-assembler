@@ -71,7 +71,8 @@ printAddress:
 	addi $sp, $sp, -4
 	sw $t0, 4($sp)
 	addi $a0, $zero, 14
-	
+
+# MY CODE below
 WritetoFile: #pass the number of bits. Make sure its in $a0
 	lw $t1, 0($sp) #what you want to convert is on a stack
 	add $t3,$zero,$zero 	#will hold the bit value
