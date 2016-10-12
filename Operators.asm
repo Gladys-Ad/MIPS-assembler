@@ -8,7 +8,7 @@ addi $sp, $sp, 4
    li $t2, 0 #register 1
    li $s2, 0 #register 2
    li $s6, 0 #register 3
-#R-TYPE INSTRUCTIONS
+#R-TYPE INSTRUCTIONS <-- my code
 Add:
 bne $t0 , 297, Addu
 addi $t0, $zero, 3
